@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             width: 100vw;
@@ -20,10 +22,22 @@
             vertical-align: middle;
             display: table-cell;
         }
+
+        .datebtn i {
+            margin: auto 5px auto 0;
+        }
+
+        .datebtn span {
+            min-width: 40%;
+        }
+
+        .no-border {
+            border: 0 !important;
+        }
     </style>
 </head>
 
-<body>
+<body dir="rtl">
     <div class="container-fluid">
         <div class="row justify-content-center step1 animate__animated animate__fadeIn">
             <div class="card" style="width: 18rem;">
@@ -105,6 +119,95 @@
             </div>
         </div>
     </div>
+    <div class="row justify-content-center step4">
+        <div class="card" style="width: 18rem;">
+            <div class="row justify-content-center pt-2">
+                <h4 class="b-block text-center">رسائل الأسبوع الاسود</h4>
+                <h6 class="d-block text-center">
+                    وحدكَ
+                    ‏من أحببتُه بيقين
+                    ‏رغم فقر اللقاء.
+                </h6>
+                <div class="col-8">
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="0"
+                        data-date="2023-04-05">
+                        الاربعاء
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                        <!-- <h6 class=" animate__animated  animate__infinite">❤</h6> -->
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="1"
+                        data-date="2023-04-06">
+                        <span>الخميس</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="2" data-date="
+                        2023-04-07">
+                        <span>الجمعة</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="3" data-date="
+                        2023-04-08">
+                        <span>السبت</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="4" data-date="
+                        2023-04-09">
+                        <span>الأحد</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="5" data-date="
+                        2023-04-10">
+                        <span>الاثنين</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="6" data-date="
+                        2023-04-11">
+                        <span>الثلاثاء</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="7" data-date="
+                        2023-04-12">
+                        <span>الاربعاء</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="8" data-date="
+                        2023-04-13">
+                        <span>الخميس</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="9" data-date="
+                        2023-04-14">
+                        <span>الجمعة</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="10" data-date="
+                        2023-04-15">
+                        <span>السبت</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn datebtn w-100 my-2 d-flex justify-content-center" data-index="11" data-date="
+                        2023-04-16">
+                        <span>الأحد</span>
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-2 lastmsg">
+                <h4 class="b-block text-center">الرسالة الأخيرة</h4>
+                <h6 class="d-block text-center">
+                    تاريخ كتابة هذه الرسالة:
+                    <span>06-04-2023 12:27 AM</span>
+                </h6>
+                <div class="col-8">
+                    <button class="btn btn-success lastbtn w-100 my-2 d-flex justify-content-center">
+                        مسك الختام
+                        <i class="fa fa-heart animate__animated animate__infinite" aria-hidden="true"></i>
+                        <!-- <h6 class=" animate__animated  animate__infinite">❤</h6> -->
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
@@ -113,6 +216,58 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
+        //   `فيُدنيني إليكك الشوقُ حتى تكادُ تئنّ في صدري العِظامُ 🖤 `
+        var words = [
+            {
+                txt1: `إنّ اللهَ قد خلَق لكل روحٍ من الأرواحِ روحًا أخرى تُماثلها وتُقابلها، وتسعد بلِقائها، وتشقى بفراقها.`,
+                txt2: `بلشت اشتقلك`
+            },
+            {
+                txt1: `أنتَ السنّد الذي لا تطمُئن روَحي إلا بوُجوده💙`,
+                txt2: `اليوم انا مداومة وانت مش موجود :(`
+            },
+            {
+                txt1: `عِندما يأتيك شخص يُعامل وجودك كشيء أساسي ويقدس البَسمة على وجهك ويخاف عليك من أثر الكلمة الجامدة، والتصرف الأرعن ، سَتفهم حينها ماذا يعني الحُب`,
+                txt2: `انت كل اشي أساسي بحياتي كتكت`
+            },
+            {
+                txt1: `أتمنى أن لا يزول أثري عنك، أن تبتهج كلما مررت بساحة ذاكرتك، أن تهفو لكل ماربطني بك يوماً، أن تندهش بي ولو كنت أتهاوى على حافة الحياة، أن تشعر بي كالمرة الأولى .. وأن تحب كل الذي لمسته عينينا معاً، أن أبقى كما أنا كعصفورة فرّت من المطر دخلت قلبك بكل هذه الخفة والرحابة.`,
+                txt2: `تذكرني `
+            },
+            {
+                txt1: `بقَلْبِي إنتْ لو بيننا مليُون مَدينَة. 💜`,
+                txt2: `بداية اسبوع دوام بمكان يخلو منك`
+            },
+            {
+                txt1: `غَضضت البصر عنه كي لا يُربكني وعندما مَر من أمامي تحوّلت كل حواسي إلى بصر`,
+                txt2: `شايفتك بكل مكان وبكل الناس`
+            },
+            {
+                txt1: `يافرحة هالعمر ويا أصدق شعور 🤍✨`,
+                txt2: `ابعتلي كلام حلو`
+            },
+            {
+                txt1: `يمكن لأي شخص أن يختارك حين توهجك ، ولكني أنا سأختارك حين تنطفئ ، تأكد بأني و إن رأيت النور في غيرك سأختار عتمتك`,
+                txt2: `اخترتك بقلبي`
+            },
+            {
+                txt1: `رضيت بكك سنداً واتزاناً ، ورضيت بكتفك الذي لايخون ♥️✨`,
+                txt2: `انت قوتي وسندي`
+            },
+            {
+                txt1: `أنا لا أحبك مثلهم : " أنا أحبك بمشاعري الغريبة ، بإهتمامي الغريب الذي يكون من بعيد ، بخوفي الباطِن الذي يجعلني أضُم إسمك بدعوتي قبل إسمي ، ويحصل أنّي أتحصّن وأقرأ أذكاري مرتين لأجل أن تحميكَ في غفلتي عنك " . 💜`,
+                txt2: `وانت بتحبني ؟ شو الدليل ؟`
+            },
+            {
+                txt1: `أراك بقلبي إينما كنت.. فتأنس بك روحي و إن غِبت.. و إلقي عليك السلام في قلبي.. كل يوم.. لا يعنيني غياب أو مسافات..  فأنت البعيد القريب لقلبي.!! 🤍`,
+                txt2: `اليوم انت مداوم بدوني بس انا معك وين ما رحت`
+            },
+            {
+                txt1: `هو بِدءُ الدُّنيا مرةً ثانية من أوّلِها`,
+                txt2: `واخيرا رح اشوفك`
+            },
+
+        ]
 
         $(".btn1").on("click", function () {
             if ($(".mname").val() == "") {
@@ -159,7 +314,8 @@
                     title: 'يلا كمل ^_^',
                     showConfirmButton: false,
                     timer: 1500
-                })
+                });
+                localStorage.setItem("startWeek", true)
                 $(".step2").addClass("animate__fadeOut");
 
                 $(".step2").hide();
@@ -171,6 +327,17 @@
                     audio.play();
 
                 }, 1600);
+
+                setTimeout(() => {
+                    $(".step3").addClass("animate__fadeOut");
+                    $(".step3").hide();
+                    setTimeout(() => {
+                        $(".step4").addClass("animate__fadeIn");
+                        $(".step4").show();
+
+                    }, 1600);
+                }, 1600 + (58 * 1000));
+
             }
             else {
                 Swal.fire({
@@ -184,19 +351,115 @@
 
         ///
         $(document).ready(function () {
-            $(".step1").hide();
-            $(".step2").hide();
-            $(".step3").hide();
-            setTimeout(() => {
+            if ("startWeek" in localStorage) {
+                $(".step1").hide();
+                $(".step2").hide();
+                $(".step3").hide();
+                $(".step4").show();
+            }
+            else {
                 $(".step1").show();
-            }, 1000);
+                $(".step2").hide();
+                $(".step3").hide();
+                $(".step4").hide();
+            }
+            var seenArr = [];
+            if ("qseen" in localStorage) {
+                var strArr = localStorage.getItem("qseen");
+                seenArr = JSON.parse(strArr);
+            }
+            var nowDate = new Date().getDate();
+            $(".datebtn").each(function (index) {
+                var thisdate = new Date($(this).data("date")).getDate();
+                if (thisdate == nowDate) {
+                    $(this).addClass("btn-outline-success")
+                    $(this).children("i").addClass("animate__heartBeat text-danger")
+                }
+                else if (thisdate > nowDate) {
 
-            $('#play').click(function () {
-                var audio = $("#audio")[0];
-                audio.play();
+                    $(this).addClass("btn-primary")
+                }
+                else {
+                    $(this).addClass("btn-danger")
+                }
+            })
+            $(".datebtn").on("click", function () {
+                var thisbtndate = new Date($(this).data("date")).getDate();
+                var dindex = $(this).data("index");
 
+                var ffilter = seenArr.filter(x => {
+                    return x == dindex;
+                });
+
+                if (thisbtndate == nowDate || ffilter.length > 0) {
+                    var word = words[dindex];
+                    Swal.fire({
+                        title: `${word.txt1}`,
+                        html: `<img src="./${dindex}.gif" width="220"><strong><small class="d-block mt-4">- ${word.txt2} </small></strong>`,
+                        iconHtml: '<i class="fa fa-heart animate__animated animate__infinite animate__heartBeat text-danger" aria-hidden="true"></i>',
+                        customClass: {
+                            confirmButton: 'btn btn-danger',
+                            icon: 'no-border'
+                        },
+                        confirmButtonText: 'بحب منار',
+                        allowOutsideClick: false
+                    }).then((result) => {
+                        /* Read more about isConfirmed, isDenied below */
+                        if (result.isConfirmed) {
+                            if (ffilter.length == 0) {
+                                seenArr.push(dindex);
+                                localStorage.setItem('qseen', JSON.stringify(seenArr))
+
+                            }
+                        }
+                    })
+                }
+                else if (thisbtndate > nowDate) {
+
+                    Swal.fire({
+                        title: 'استنا شوية',
+                        iconHtml: '<img src="./wait.gif" width="220">',
+                        customClass: {
+                            icon: 'no-border'
+                        },
+                        confirmButtonText: 'ربي يصبرك',
+                        allowOutsideClick: false
+                    })
+                }
+                else {
+                    Swal.fire({
+                        title: 'راحت عليك',
+                        iconHtml: '<img src="./angry.gif" width="220">',
+                        customClass: {
+                            icon: 'no-border'
+                        },
+                        confirmButtonText: 'نسيت احب منار اليوم',
+                        allowOutsideClick: false
+                    })
+                }
+            });
+            $(".lastbtn").on("click", function () {
+                Swal.fire({
+                    title: 'ما بعرف كيف رح يمر هالأسبوع، بس اكيد ما بحب اشوفك منكد وزعلان مني، انت عارف انه بحبك',
+                    iconHtml: '<img src="./last.gif" width="220">',
+                    customClass: {
+                        icon: 'no-border',
+                        title: 'my-4 pt-4'
+                    },
+                    confirmButtonText: 'بعرف حبيبتي',
+                    allowOutsideClick: false
+                })
             });
 
+            var nowdate = new Date().getDate();
+            var reqdate = new Date('2023-04-16').getDate();
+
+            if (nowDate == reqdate) {
+                $(".lastmsg").show();
+            }
+            else {
+                $(".lastmsg").hide();
+            }
         });
 
     </script>
